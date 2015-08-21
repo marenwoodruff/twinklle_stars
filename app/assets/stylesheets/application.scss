@@ -39,9 +39,9 @@ figure:after {
 	position: absolute;
 	display: block;
 	width: 145%;
-	height: 145%;
-	top: -22.5%;
-	left: -22.5%;
+	height: 155%;
+	top: -28.5%;
+	left: -20%;
 	background: #f8f8f8;
 	z-index: -2;
 	box-shadow:
@@ -56,23 +56,6 @@ figure:after {
 /***************************
 	Stars
 ****************************/
-
-@keyframes move-twink {
-    from {background-position: 0 0;}
-    to {background-position: 500px 500px;}
-}
-@-webkit-keyframes move-twink {
-    from {background-position:0 0;}
-    to {background-position: 500px 500px;}
-}
-@-moz-keyframes move-twink {
-    from {background-position: 0 0;}
-    to {background-position: 500px 500px;}
-}
-@-ms-keyframes move-twink {
-    from {background-position:0 0;}
-    to {background-position: 500px 500px;}
-}
 
 .stars, .twinkling {
   position: absolute;
@@ -103,3 +86,19 @@ figure:after {
   animation: move-twink 500s linear infinite;
 }
 
+@keyframes move-twink {
+    from {background-position: 0 0;}
+    to {background-position: 500px 500px;}
+}
+@-webkit-keyframes move-twink {
+    from {background-position:0 0;}
+    to {background-position: 500px 500px;}
+}
+@-moz-keyframes move-twink {
+    from {background-position: 0 0;}
+    to {background-position: 500px 500px;}
+}
+@-ms-keyframes move-twink {
+    from {background-position:0 0;}
+    to {background-position: 500px 500px;}
+}
