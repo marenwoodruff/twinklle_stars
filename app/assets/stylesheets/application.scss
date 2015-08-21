@@ -3,7 +3,7 @@
 @import "bootstrap";
 
 body {
-	background: #FDFDF2;
+	background: #000033;
 }
 
 figure {
@@ -32,11 +32,6 @@ figure:before {
 		inset .1em 0px .1em rgba(0,0,0,.1),
 		inset -0.1em 0px .1em rgba(0,0,0,.05),
 		0 .3em .2em #fff;
-	background-image: -moz-radial-gradient(50% 50%, circle farthest-corner, #ffffff, #f8f8f8 100%);
-	background-image: -webkit-radial-gradient(50% 50%, circle farthest-corner, #ffffff, #f8f8f8 100%);
-	background-image: -o-radial-gradient(50% 50%, circle farthest-corner, #ffffff, #f8f8f8 100%);
-	background-image: -ms-radial-gradient(50% 50%, circle farthest-corner, #ffffff, #f8f8f8 100%);
-	background-image: radial-gradient(50% 50%, circle farthest-corner, #ffffff, #f8f8f8 100%)
 }
 
 figure:after {
@@ -64,19 +59,19 @@ figure:after {
 
 @keyframes move-twink {
     from {background-position: 0 0;}
-    to {background-position: 8000px 5000px;}
+    to {background-position: 500px 500px;}
 }
 @-webkit-keyframes move-twink {
     from {background-position:0 0;}
-    to {background-position: 8000px 5000px;}
+    to {background-position: 500px 500px;}
 }
 @-moz-keyframes move-twink {
     from {background-position: 0 0;}
-    to {background-position: 8000px 5000px;}
+    to {background-position: 500px 500px;}
 }
 @-ms-keyframes move-twink {
     from {background-position:0 0;}
-    to {background-position: 8000px 5000px;}
+    to {background-position: 500px 500px;}
 }
 
 .stars, .twinkling {
@@ -91,20 +86,20 @@ figure:after {
 }
 
 .stars {
-  background: #000 url("http://i.imgur.com/h2Gy5OP.png?1") repeat;
-  background-position:  top center;
+  background: #000 url("https://i.imgur.com/h2Gy5OP.png?1") repeat;
+  background-position: top center;
   z-index: 0;
 }
 
 .twinkling{
-  background: transparent url("http://i.imgur.com/FRlBub6.png?1") repeat;
-  background-position:  top center;
+  background: url("https://i.imgur.com/FRlBub6.png?1") repeat;
+  background-position: top center;
   z-index: 1;
 
-  -moz-animation: move-twink 200s linear infinite;
-  -ms-animation: move-twink 200s linear infinite;
-  -o-animation: move-twink 200s linear infinite;
-  -webkit-animation: move-twink 200s linear infinite;
-  animation: move-twink 200s linear infinite;
+  -moz-animation: move-twink 500s linear infinite;
+  -ms-animation: move-twink 500s linear infinite;
+  -o-animation: move-twink 500s linear infinite;
+  -webkit-animation: move-twink 500s linear infinite;
+  animation: move-twink 500s linear infinite;
 }
 
